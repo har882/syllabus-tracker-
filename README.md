@@ -12,7 +12,8 @@ Students can-
 4. Add their own topics if they want
 
 # Teachnology used:
-• JRE (Java Runtime Environment) – JDK included
+• Java
+• Springboot
 • MYSQL server
-• Spring framework
-• Spring Tool Suite (STS) IDE
+• Thymeleaf
+• HTML, CSS, Javascript
