@@ -1,4 +1,4 @@
-# prject status
+## Project status
 In Progress
 
 # syllabus-tracker
