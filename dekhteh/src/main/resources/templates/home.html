@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Welcome to Home</title>
+    <link rel="stylesheet" type="text/css" href="/webjars/bootstrap/css/bootstrap.min.css" />
+    <script type="text/javascript" src="/webjars/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="/webjars/bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<header>
+		<nav id="header-nav" class= "navbar navbar-default">
+			    <div class="container">
+				     <div class="navbar-header">
+					     <div class="navbar-brand"> 
+						    <a href='index.html'>
+						        <h1>Choose your exam</h1>
+						    </a>
+					    </div>
+			    	</div>
+			    </div>
+		 </nav>  
+	 </header>
+			    <div class="container text-center">
+			        <h3><a th:href="@{/syll/exam1}">GATE</a></h3><br>
+			        <h3><a th:href="@{/syll/exam2}">JEE</a></h3><br>
+			        
+			    </div>
+    
+    
+</body>
+</html>
+
+<style>
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: white;
+	font-family: 'Oxygen', sans-serif;
+}
+ 
+#header-nav {
+	background-color: #f6b319;
+	border-radius:0;
+	border: 0;
+	height:100%;
+}
+
+
+.navbar-brand {
+	padding-top: 25 px;
+}
+
+.navbar-brand h1 {
+	text-align: center;
+	padding-top: 0;
+	margin-top: 10px;
+	font-family: 'Lora';
+	font-size: 1.8em;
+	text-transform:uppercase;
+	color: #61122f;
+	font-weight:bold;
+	text-shadow: 1px 1px 1px;
+
+}
+
+.navbar-brand a:hover {
+	text-decoration: none;
+}
+
+</style>
